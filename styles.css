@@ -1,7 +1,16 @@
 /*fix img size automatic enlargen according to device size, font style: ibm old school*/
-*{border-sizing:box-sizing;}
+*{box-sizing:border-box;}
 
-body{background:linear-gradient(#1E90FF, white,#00BFFF,#1E90FF);font-family:helvetica;}
-img{width:2000px;height:auto;vertical-align:middle;}
+body{background:linear-gradient(#1E90FF, white,#00BFFF,#1E90FF);font-family:helvetica, Arial;min-width:290px;}
+
+img{width:100%;height:auto;vertical-align:middle;}
 .img-member{max-width:80%;}
 
+#navbar{position:fixed;min-width:290px;top:0px;left:0px;width:300px;height:100px;border-right:1px solid black;}
+
+header{margin:10px;text-align:center;font-size:1.8em;font-weight:bold;}
+
+@media only screen and (max-width:815px){
+  /* Mobile Phones*/
+  #
+}
