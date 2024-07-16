@@ -3,8 +3,9 @@
 
 html, body{background:linear-gradient(#1E90FF, white,#00BFFF,white,#1E90FF);font-family:helvetica, Arial;min-width:290px;text-align:center;}
 
-img{width:100%;height:auto;vertical-align:middle;max-width:3000px;}
+img{width:100%;height:auto;vertical-align:middle;max-width:3000px;margin-top:20px;}
 .img-member{max-width:60%;}
+#Discography img{max-width:40%;}
 
 span{font-weight:bolder;}
 
