@@ -1,22 +1,30 @@
 /*fix img size automatic enlargen according to device size, font style: ibm old school*/
 *{box-sizing:border-box;}
 
-body{background:linear-gradient(#1E90FF, white,#00BFFF,#1E90FF);font-family:helvetica, Arial;min-width:290px;text-align:center;}
+html, body{background:linear-gradient(#1E90FF, white,#00BFFF,white,#1E90FF);font-family:helvetica, Arial;min-width:290px;text-align:center;}
 
-img{width:100%;height:auto;vertical-align:middle;}
-.img-member{max-width:80%;}
+img{width:100%;height:auto;vertical-align:middle;max-width:3000px;}
+.img-member{max-width:60%;}
 
-#navbar{position:fixed;min-width:290px;top:0px;left:0px;width:300px;height:100px;border-right:1px solid black;}
+#navbar{position:fixed;min-width:290px;top:0px;left:0px;width:300px;height:100%;border-right:1px solid black;}
 
-header{margin:10px;font-size:1.8em;font-weight:bold;}
+header{margin:20px;font-size:1.8em;font-weight:bold;}
 
-#main-doc header{text-align:left;margin:0;}
+#main-doc header{text-align:left;margin:10px;}
 
 #navbar ul{height:88%;padding:0;overflow-y:auto;overflow-x:hidden;}
 
 #navbar li{color:black;border-top:1px solid;list-style:none;position:relative;width:100%;font-weight:bold;}
 
 #navbar a{display:block;padding:10px 30px;color:black;text-decoration:none;cursor:pointer;}
+
+#main-doc{margin-left:310px;padding:20px;margin-bottom:110px;}
+
+section article{color:black;margin:15px;font-size:0.96em;}
+
+section.member li{margin:15px 0 0 2px;list-style:none;}
+
+code{display:block;text-align:left;white-space:pre-line;position:relative;word-break:normal;word-wrap:normal;}
 
 @media only screen and (max-width:815px){
   /* Mobile Phones*/
