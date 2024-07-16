@@ -6,6 +6,8 @@ html, body{background:linear-gradient(#1E90FF, white,#00BFFF,white,#1E90FF);font
 img{width:100%;height:auto;vertical-align:middle;max-width:3000px;}
 .img-member{max-width:60%;}
 
+span{font-weight:bolder;}
+
 #navbar{position:fixed;min-width:290px;top:0px;left:0px;width:300px;height:100%;border-right:1px solid black;}
 
 header{margin:20px;font-size:1.8em;font-weight:bold;}
@@ -39,6 +41,8 @@ code{display:block;text-align:left;white-space:pre-line;position:relative;word-b
   #margin-doc{
     margin-left:-10px;
   }
+
+  img{min-width:200px;}
 
   code{
     margin:left;width:100px;padding:15px;padding-left:10px;padding-right:45px;min-width:233px;
